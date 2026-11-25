@@ -5,9 +5,9 @@ public class Main {
     public static void main (String[] args){
 
         Square square = new Square();
-        square.areaCalculator();
+        System.out.println("A área do quadrado é: " + square.areaCalculator());
 
         Circle circle = new Circle();
-        circle.areaCalculator();
+        System.out.println("A área do círculo é: " + circle.areaCalculator());
     }
 }
