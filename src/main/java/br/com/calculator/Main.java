@@ -6,5 +6,8 @@ public class Main {
 
         Square square = new Square();
         square.areaCalculator();
+
+        Circle circle = new Circle();
+        circle.areaCalculator();
     }
 }
