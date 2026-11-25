@@ -2,8 +2,8 @@ package br.com.calculator;
 
 public class Square implements AreaCalculator {
 
-    double side1;
-    double side2;
+    double side1 = 10.5;
+    double side2 = 8.2;
     double areaSquare = side1 * side2;
 
     @Override
